@@ -1,0 +1,42 @@
+body {
+   background-image: url("https://pbs.twimg.com/media/DkOD4O2VAAAwXNa.jpg");
+   background-size: contain;
+}
+
+#bangtan {
+	border-radius: 20px;
+	border: 10px
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 20px;
+    text-align: center;
+}
+
+#Flip, #Panel {
+    padding: 20px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}
